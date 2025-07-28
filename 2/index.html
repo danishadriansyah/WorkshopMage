@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resto Responsif</title>
+    <link rel="stylesheet" href="/2/styles.css">
+</head>
+
+<body>
+
+    <!-- Poin a: Positioning (fixed) -->
+    <!-- Banner ini akan tetap di atas layar saat di-scroll -->
+    <div class="promo-banner">
+        Diskon 20% untuk semua menu hari ini!
+    </div>
+
+    <header class="main-header">
+        <!-- Poin b: Flexbox digunakan di sini untuk menata navbar -->
+        <nav class="navbar">
+            <div class="logo">RestoKu</div>
+            <ul class="nav-links">
+                <!-- Poin a: <a> dan <li> adalah contoh elemen inline dan block -->
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="./kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Menu Spesial Kami</h1>
+        <p>
+            Selamat datang di restoran kami!
+            <!-- Poin a: <span> adalah contoh elemen inline -->
+            <span>Nikmati hidangan terbaik dari chef profesional.</span>
+        </p>
+
+        <!-- Poin b: Grid Layout digunakan untuk menyusun kartu menu -->
+        <div class="menu-grid">
+            <div class="menu-card">
+                <img src="https://placehold.co/600x400/EADBC8/000?text=Makanan+1" alt="Menu Makanan 1">
+                <h3>Paket Ayam Bakar</h3>
+                <p>Nasi, ayam bakar madu, sambal, dan lalapan segar.</p>
+            </div>
+            <div class="menu-card">
+                <img src="https://placehold.co/600x400/DAC0A3/000?text=Makanan+2" alt="Menu Makanan 2">
+                <h3>Nasi Goreng Spesial</h3>
+                <p>Nasi goreng dengan telur, sosis, dan udang.</p>
+            </div>
+            <div class="menu-card">
+                <img src="https://placehold.co/600x400/EADBC8/000?text=Minuman+1" alt="Menu Minuman 1">
+                <h3>Es Jeruk</h3>
+                <p>Perasan jeruk segar yang mendinginkan suasana.</p>
+            </div>
+            <div class="menu-card">
+                <img src="https://placehold.co/600x400/DAC0A3/000?text=Minuman+2" alt="Menu Minuman 2">
+                <h3>Jus Alpukat</h3>
+                <p>Jus alpukat kental dengan susu cokelat.</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
